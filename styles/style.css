@@ -310,6 +310,10 @@
     inline-size: 28px;
   }
 
+  .card_mid-label {
+    inset-inline-end: 11px;
+  }
+
 }
 
 @supports (

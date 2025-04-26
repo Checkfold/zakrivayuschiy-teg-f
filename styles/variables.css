@@ -18,7 +18,7 @@
       to bottom, #e7e7e7 0.01%, #1a1a1a
       );
     --page-background-color: #FFFFFF;
-    --button-hover-text: var(--page-background-color, #fff);
+    --button-hover-text: var(--page-background-color, #FFFFFF);
     --like-contour: var(--color-text, #000000);
     --like-sparks: #ff0000;
 }

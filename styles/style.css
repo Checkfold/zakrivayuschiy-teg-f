@@ -141,7 +141,7 @@
 
 .card_content {
   display: grid;
-  padding: 30px 23px 0 23px;
+  padding: 31px 23px 0 23px;
   gap: 27px;
   font-family: var(--page-main-font, "Inter", sans-serif);
   font-weight: var(--headings-font-weight, 400);
@@ -150,6 +150,7 @@
 
 .card_bottom {
   display: flex;
+  gap: 6px;
   justify-content: flex-end;
   padding: 25px 25px 25px 25px;
 }
@@ -157,10 +158,10 @@
 .card__icon-button {
   background-color: transparent;
   border: 2px solid transparent;  
-  block-size: 39px;
-  inline-size: 55px;
+  block-size: 38px;
   cursor: pointer;
   transition: border-color 0.3s ease;
+  padding: 0;
 }
 
 .card__icon-button:focus {
